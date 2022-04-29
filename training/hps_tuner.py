@@ -55,9 +55,9 @@ def build_model(hp):
 
 
 if __name__ == "__main__":
-    RANDOM = False
+    RANDOM = True
 
-    EPOCHS = 20
+    EPOCHS = 100
     BATCH_SIZE = 256
 
     # Loading data
