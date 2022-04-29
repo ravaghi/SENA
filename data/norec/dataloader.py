@@ -50,7 +50,7 @@ def load_full_dataset(binary=False) -> dict:
                     else:
                         if label <= 2:
                             label = 0
-                        elif 3 <= label < 5:
+                        elif label == 3:
                             label = 1
                         else:
                             label = 2
