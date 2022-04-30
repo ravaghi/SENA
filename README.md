@@ -1,23 +1,8 @@
 # SENA
-
+This project has its focus on document-level sentiment analysis on Norwegian news articles using a neural network architecture based on long-short-term-memory. Furthermore the hyperparameter optimization framework, [KerasTuner](https://keras.io/keras_tuner/), has been used to find the optimal hyperparameters for the network.
 
 ## Dataset
-
-[NoReC](https://github.com/ltgoslo/norec)
-
-## Architecture
-
-### Hyperparameters
-
-|  Embedding dim  |   48   |
-|:---------------:|:------:|
-|    LSTM units   |   16   |
-|     Dropout     |  0.35  |
-| Spatial Dropout |   0.2  |
-|    L1 lambda    |  0.01  |
-|    L2 lambda    | 0.0025 |
-|  Learning rate  | 0.0005 |
-
+The dataset used in this project is the Norwegian Review Corpus, [NoReC](https://github.com/ltgoslo/norec), which has been made spesifically for the purpose of training and evaluating models for document-level sentiment analysis. It consists of 43425 reviews collected from eight different sources in a number of different domains.
 
 ## Result
 
